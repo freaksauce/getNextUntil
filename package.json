@@ -1,5 +1,5 @@
 {
-  "name": "getNextUntil",
+  "name": "getnextuntil",
   "version": "0.0.1",
   "description": "Get all next siblings of an element until a selector is found",
   "repository": {
