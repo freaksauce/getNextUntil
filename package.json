@@ -12,5 +12,14 @@
     "dom"
   ],
   "author": "Jon Bloomer",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "jest": {
+    "verbose": true
+  }
 }
