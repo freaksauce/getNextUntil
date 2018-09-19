@@ -5,15 +5,13 @@
  * @param  {String} selector The selector to match against
  * @return {Array}           The siblings
  */
-var getNextUntil = function (elem, selector) {
-
+module.exports = function getNextUntil(elem, selector) {
 	// Setup siblings array and get next sibling
 	var siblings = [];
 	var next = elem.nextElementSibling;
 
 	// Loop through all siblings
 	while (next) {
-
 		// If the matching item is found, quit
 		if (selector && next.matches(selector)) break;
 
@@ -22,9 +20,6 @@ var getNextUntil = function (elem, selector) {
 
 		// Get the next sibling
 		next = next.nextElementSibling
-
 	}
-
 	return siblings;
-
 };
