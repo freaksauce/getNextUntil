@@ -1,6 +1,6 @@
 {
   "name": "getnextuntil",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get all next siblings of an element until a selector is found",
   "repository": {
     "type": "git",
