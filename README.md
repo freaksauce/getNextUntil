@@ -32,12 +32,6 @@ var nextStop = getNextUntil(findMe, '.stop-here');
 
 // Returns all list items after #find-me
 var nextAll = getNextUntil(findMe);
-
-// Returns the first two list items before #find-me
-var prevStop = getPreviousUntil(findMe, '.stop-here');
-
-// Returns all list items before #find-me
-var prevAll = getPreviousUntil(findMe);
 ```
 
 The `matches()` method was implemented inconsistently with vendor prefixes across many browsers for a while. You should [include a polyfill](https://vanillajstoolkit.com/polyfills/matches/) for it to make sure these work properly.
