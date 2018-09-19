@@ -1,4 +1,4 @@
-# parentsUntil
+# getNextUntil
 This is a packaged version of the [Chris Ferdinandi](https://gomakethings.com) utility function that gets all next siblings of an element in the DOM until a selector is found.
 
 ## Installation
