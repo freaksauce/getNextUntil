@@ -1,6 +1,6 @@
 {
   "name": "getnextuntil",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Get all next siblings of an element until a selector is found",
   "repository": {
     "type": "git",
@@ -9,7 +9,17 @@
   "main": "index.js",
   "keywords": [
     "parents",
-    "dom"
+    "dom",
+    "selector",
+    "element",
+    "document",
+    "window",
+    "nextElementSibling",
+    "siblings",
+    "matches",
+    "array",
+    "push",
+    ""
   ],
   "author": "Jon Bloomer",
   "license": "ISC",
