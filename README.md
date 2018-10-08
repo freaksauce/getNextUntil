@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/freaksauce/getnextuntil.svg?branch=master)](https://travis-ci.org/freaksauce/getnextuntil)
+[![Build Status](https://travis-ci.org/freaksauce/getNextUntil.svg?branch=master)](https://travis-ci.org/freaksauce/getNextUntil)
 
 # getNextUntil
 This is a packaged version of the [Chris Ferdinandi](https://gomakethings.com) utility function that gets all next siblings of an element in the DOM until a selector is found.
