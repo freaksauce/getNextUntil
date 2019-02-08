@@ -38,4 +38,3 @@ var nextAll = getNextUntil(findMe);
 
 The `matches()` method was implemented inconsistently with vendor prefixes across many browsers for a while. You should [include a polyfill](https://vanillajstoolkit.com/polyfills/matches/) for it to make sure these work properly.
 
-[![Donate with Bitcoin](https://en.cryptobadges.io/badge/big/15H4Wbpmqa6rp8wLRP2atWVhfemUhKjHbn)](https://en.cryptobadges.io/donate/15H4Wbpmqa6rp8wLRP2atWVhfemUhKjHbn)
